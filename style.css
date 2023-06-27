@@ -13,3 +13,34 @@
     margin-top: 50px;
 }
 
+#character {
+    width: 20px;
+    height: 50px;
+    background-color: rgba(0, 255, 157, 0.808);
+    position: relative;
+    top: 150px;
+    border-radius: 3px;
+}
+
+.animate {
+    animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+
+    30% {
+        top: 100px;
+    }
+
+    70% {
+        top: 100px;
+    }
+
+    100% {
+        top: 150px;
+    }
+}
+
