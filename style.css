@@ -44,3 +44,29 @@
     }
 }
 
+#block {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(195, 0, 255);
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1s infinite linear;
+}
+
+@keyframes block {
+    0% {
+        left: 500px;
+    }
+
+    100% {
+        left: -50px;
+    }
+}
+
+p {
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 30px;
+ }
